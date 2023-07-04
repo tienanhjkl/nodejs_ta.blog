@@ -1,0 +1,20 @@
+h1 {
+  color: #2f53a1; }
+
+h2 {
+  color: coral;
+  font-size: medium;
+  font-style: inherit; }
+
+h3 {
+  color: #1f3b80;
+  font-size: medium; }
+
+.card-profile-item {
+  margin-top: 16px; }
+
+.avatar-user {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 6px; }

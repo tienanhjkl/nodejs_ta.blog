@@ -1,0 +1,19 @@
+<div class="mt-4">
+    <div class="row">
+        {{#each profile}}
+        <div class="col-sm-6 col-lg-4">
+            <div class="card card-profile-item mb-3">
+                <img class="card-img-top" src="{{this.Image}}" alt="{{this.Name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.Name}}</h5>
+                    <p class="card-text">Age: {{this.Age}}</p>
+                    <p class="card-text">Gender: {{this.Gender}}</p>
+                    <a href="{{this.LinkFB}}" target="_blank" class="btn btn-primary">Facebook</a>
+                    <a href="{{this.LinkIG}}" target="_blank" class="btn btn-danger">Instagram</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>

@@ -1,0 +1,32 @@
+@import 'variables';
+
+h1 {
+  color: $blueOcean-color;
+}
+
+h2 {
+  color: $coral-color;
+  font-size: medium;
+  font-style: inherit;
+}
+
+h3 {
+  color: $bluedark-color;
+  font-size: medium;
+}
+
+p {
+  font-size: medium;
+  color:burlywood;
+  font-style: inherit;
+}
+
+.card-profile-item{
+  margin-top: 16px;
+}
+.avatar-user{
+  width: 45px;
+  height: 45px;
+  border-radius: 80%;
+  margin-right: 6px;
+}
